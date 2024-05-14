@@ -1,0 +1,4217 @@
+:root {
+    --p-text: rgb(163, 165, 165);
+    --main-text: rgb(253, 252, 253);
+    --services-text: rgb(255, 153, 0);
+    --brandblacktext: rgba(26, 26, 26, 1);
+    --collection-1-navbar-maincolor: rgba(247, 238, 237, 1);
+    --collection-1-UX-main: rgba(95, 36, 154, 1);
+    --collection-1-webdev-main: rgb(223, 65, 192);
+    --collection-1-webdesign-main: rgba(15, 27, 135, 1);
+    --collection-1-cloud-main: rgba(72, 27, 73, 1);
+}
+
+body {
+    /* max-width: 100vw; */
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #888787;
+    text-decoration: none;
+
+}
+
+.mobilehomepage {
+    background-color: #2c2b2b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.mobilehomepage .div {
+    /* border: 1px solid #dedcdc; */
+    background-color: #2c2b2b;
+    min-width: 360px;
+    height: 4460px;
+    position: relative;
+}
+
+.mobilehomepage .overlap {
+    position: absolute;
+    width: 360px;
+    height: 58px;
+    top: 0;
+    left: 0;
+}
+
+.mobilehomepage .newlogo-navbar {
+    position: absolute;
+    width: 360px;
+    height: 58px;
+    top: 0;
+    left: 0;
+    background-color: var(--brandblacktext);
+}
+
+.mobilehomepage .vector {
+    position: absolute;
+    width: 20px;
+    height: 14px;
+    top: 11px;
+    left: 16.4rem;
+}
+
+.mobilehomepage .group {
+    position: absolute;
+    width: 209px;
+    height: 46px;
+    top: 6px;
+    left: 28px;
+}
+
+.mobilehomepage .overlap-wrapper {
+    position: relative;
+    min-width: 213px;
+    height: 46px;
+    left: -12px;
+}
+
+.mobilehomepage .overlap-group {
+    position: relative;
+    width: 211px;
+    height: 46px;
+}
+
+.mobilehomepage .overlap-group-2 {
+    position: absolute;
+    width: 208px;
+    height: 46px;
+    top: 0;
+    left: 0;
+}
+
+.mobilehomepage .text-wrapper {
+    top: 0;
+    -webkit-text-stroke: 0.99px #3f3f3fcf;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 00;
+    color: #c8f0c0;
+    font-size: 30.6px;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .text-wrapper-2 {
+    position: absolute;
+    top: 31px;
+    left: 118px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 5.8px;
+    letter-spacing: 0;
+    line-height: 6.8px;
+    white-space: nowrap;
+}
+
+.mobilehomepage .img {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    top: 11px;
+    left: 174px;
+    background-color: transparent;
+}
+
+.mobilehomepage .mobile-social {
+    position: absolute;
+    width: 90px;
+    height: 13px;
+    top: 37px;
+    left: 13.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobilehomepage .microsoft {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 68px;
+}
+
+.mobilehomepage .github {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 54px;
+}
+
+.mobilehomepage .text-wrapper-3 {
+    position: absolute;
+    width: 39px;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #dddddd;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .linkedin {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 40px;
+}
+
+.mobilehomepage .rectangle {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 17px;
+    left: 328px;
+    background-color: #de4013;
+}
+
+.mobilehomepage .renamewhenused {
+    position: absolute;
+    width: 330px;
+    height: 396px;
+    top: 103px;
+    left: 15px;
+}
+
+.mobilehomepage .mobile-load-of {
+    position: absolute;
+    width: 169px;
+    height: 34px;
+    top: 0;
+    left: 0;
+    width: 94%;
+}
+
+.mobilehomepage .text-wrapper-4 {
+    top: -1px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #f56f0f;
+    font-size: 25.2px;
+    position: absolute;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .overlap-2 {
+    position: absolute;
+    width: 330px;
+    height: 286px;
+    top: 50px;
+    left: 0;
+}
+
+.mobilehomepage .mobile-web {
+    position: absolute;
+    width: 315px;
+    height: 101px;
+    top: 0;
+    left: 0;
+}
+
+.mobilehomepage .web-development-UX {
+    font-size: 33.3px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--main-text);
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .mobile-paragraph {
+    position: absolute;
+    width: 330px;
+    height: 198px;
+    top: 88px;
+    left: 0;
+}
+
+.mobilehomepage .i-specialize-in {
+    position: absolute;
+    top: -12px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--main-text);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .proficient-in {
+    position: absolute;
+    top: 89px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--main-text);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .mobile-button {
+    display: flex;
+    min-width: 90px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    gap: 9.18px;
+    padding: 9.18px 11.47px;
+    position: absolute;
+    top: 359px;
+    left: 10.5rem;
+    border-radius: 3.44px;
+    border: 1.15px solid;
+    border-color: #ffffff;
+}
+
+.mobilehomepage .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.47px;
+    margin-left: -0.28px;
+    margin-right: -0.28px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #fcfdfd;
+    font-size: 13.8px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .renamewhenused-2 {
+    position: absolute;
+    width: 330px;
+    height: 784px;
+    top: 594px;
+    left: 15px;
+}
+
+.mobilehomepage .load-of-pixels-wrapper {
+    width: 94%;
+    top: 265px;
+    left: 0;
+    position: absolute;
+    height: 67px;
+}
+
+.mobilehomepage .load-of-pixels {
+    font-size: 21.7px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #f56f0f;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .overlap-3 {
+    position: absolute;
+    width: 311px;
+    height: 170px;
+    top: 348px;
+    left: 9px;
+}
+
+.mobilehomepage .web-development-UX-wrapper {
+    width: 94%;
+    height: 95px;
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+
+.mobilehomepage .web-development-UX-2 {
+    font-size: 33.3px;
+    position: absolute;
+    top: -42px;
+    left: -11px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--main-text);
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .p {
+    position: absolute;
+    top: 29px;
+    left: -9px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--main-text);
+    font-size: 16.2px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .div-wrapper {
+    display: flex;
+    width: 90px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    gap: 9.18px;
+    padding: 8.66px 10.83px;
+    position: absolute;
+    top: 660px;
+    left: 10.5rem;
+    border-radius: 3.25px;
+    border: 1.08px solid;
+    border-color: #ffffff;
+
+}
+
+.mobilehomepage .text-wrapper-6 {
+    margin-top: -1.42px;
+    margin-left: -0.05px;
+    margin-right: -0.05px;
+    font-size: 13px;
+    position: relative;
+    width: fit-content;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #fcfdfd;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .rectangle-2 {
+    position: absolute;
+    min-width: 100%;
+    height: 249px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.mobilehomepage .proficient-in-2 {
+    position: absolute;
+    top: 467px;
+    left: 0px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--main-text);
+    font-size: 16.2px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .popular-services {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    position: absolute;
+    top: 1380px;
+    left: 33px;
+}
+
+.mobilehomepage .popular-services-2 {
+    position: relative;
+    display: flex;
+    width: 94%;
+    height: 44px;
+    top: 40px;
+    left: 16px;
+}
+
+.mobilehomepage .services-image-text {
+    position: relative;
+    width: 294.48px;
+    height: 811.71px;
+}
+
+.mobilehomepage .web-development-UX-3 {
+    position: absolute;
+    top: -52px;
+    left: -11px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--main-text);
+    font-size: 33.3px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .cloud-services {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mobilehomepage .rectangle-3 {
+    position: relative;
+    width: 294.48px;
+    height: 248.57px;
+    object-fit: cover;
+}
+
+.mobilehomepage .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: absolute;
+    top: 147px;
+    left: 14px;
+}
+
+.mobilehomepage .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .IT-management {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 282px;
+    left: 0;
+}
+
+.mobilehomepage .AI-assisitant {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 563px;
+    left: 0;
+}
+
+.mobilehomepage .mobile-button-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.mobilehomepage .get-in-touch-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 10px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.mobilehomepage .get-in-touch {
+    margin-top: -1px;
+    font-size: 12px;
+    position: relative;
+    width: fit-content;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #fcfdfd;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .renamewhenused-UX {
+    position: absolute;
+    width: 330px;
+    height: 776px;
+    top: 2430px;
+    left: 15px;
+}
+
+.mobilehomepage .overlap-4 {
+    position: absolute;
+    width: 302px;
+    height: 514px;
+    top: 262px;
+    left: 10px;
+}
+
+.mobilehomepage .mobile-button-2 {
+    display: flex;
+    min-width: 90px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    gap: 8.59px;
+    padding: 8.59px 10.74px;
+    position: absolute;
+    top: 512px;
+    left: 10.5rem;
+    border-radius: 3.22px;
+    border: 1.07px solid;
+    border-color: #ffffff;
+}
+
+.mobilehomepage .text-wrapper-9 {
+    margin-top: -1.48px;
+    margin-left: -0.39px;
+    margin-right: -0.39px;
+    font-size: 12.9px;
+    position: relative;
+    width: fit-content;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #fcfdfd;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .group-2 {
+    position: absolute;
+    width: 297px;
+    height: 499px;
+    top: 0;
+    left: 0;
+}
+
+.mobilehomepage .mobile-load-of-2 {
+    width: 94%;
+    top: 0;
+    left: -9px;
+    position: absolute;
+    height: 67px;
+}
+
+.mobilehomepage .load-of-pixels-2 {
+    font-size: 21.5px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #f56f0f;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .overlap-5 {
+    position: absolute;
+    width: 297px;
+    height: 418px;
+    top: 82px;
+    left: 0;
+}
+
+.mobilehomepage .mobile-web-2 {
+    width: 295px;
+    height: 94px;
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+
+.mobilehomepage .overlap-group-wrapper {
+    position: absolute;
+    width: 295px;
+    height: 335px;
+    top: 83px;
+    left: 0;
+}
+
+.mobilehomepage .overlap-group-3 {
+    position: relative;
+    width: 291px;
+    height: 335px;
+}
+
+.mobilehomepage .at-the-core-of-our {
+    position: absolute;
+    top: 138px;
+    left: -9px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--main-text);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .our-approach-to-web {
+    position: absolute;
+    top: 11px;
+    left: -9px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--main-text);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .rectangle-4 {
+    position: absolute;
+    width: 330px;
+    height: 246px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.mobilehomepage .renamewhenused-3 {
+    position: absolute;
+    width: 330px;
+    height: 483px;
+    top: 3341px;
+    left: 15px;
+}
+
+.mobilehomepage .text-wrapper-10 {
+    position: absolute;
+    top: -1px;
+    left: 21px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--main-text);
+    font-size: 33.6px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .we-use-figma-to {
+    position: absolute;
+    width: 329px;
+    top: 78px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--main-text);
+    font-size: 18.6px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .text-wrapper-11 {
+    position: absolute;
+    top: 424px;
+    left: 81px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--services-text);
+    font-size: 18.6px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.mobilehomepage .servicesabouthelp {
+    position: absolute;
+    width: 177px;
+    height: 440px;
+    top: 3909px;
+    left: 15px;
+}
+
+.mobilehomepage .flexcontainer {
+    height: 121px;
+    top: -1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    position: absolute;
+    width: 177px;
+    left: 0;
+}
+
+.mobilehomepage .text-i {
+    position: relative;
+    align-self: stretch;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 400;
+    color: var(--main-text);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.mobilehomepage .span {
+    font-weight: 700;
+}
+
+.mobilehomepage .text-wrapper-12 {
+    font-family: "Open Sans-Regular", Helvetica;
+    color: rgb(203, 195, 195);
+}
+
+.mobilehomepage .flexcontainer-i {
+    height: 122px;
+    text-decoration: none;
+    top: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    position: absolute;
+    width: 177px;
+    left: 0;
+}
+
+.mobilehomepage .flexcontainer-2 {
+    height: 72px;
+    top: 367px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    position: absolute;
+    width: 177px;
+    left: 0;
+}
+
+.mobilehomepage .copyright-load-of {
+    position: absolute;
+    width: 217px;
+    height: 25px;
+    top: 4432px;
+    left: 72px;
+}
+
+.mobilehomepage .text-wrapper-13 {
+    position: absolute;
+    width: 217px;
+    top: -1px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--main-text);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+@media (min-width: 376px) and (max-width: 425px) {
+    body {
+        max-width: 375px;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        background-color: #888787;
+        text-decoration: none;
+    }
+
+    .mobilehomepage {
+        background-color: #2c2b2b;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        min-width: 100%;
+    }
+
+    .mobilehomepage .div {
+        /* border: 1px solid #dedcdc; */
+        background-color: #2c2b2b;
+        min-width: 375px;
+        height: 4460px;
+        position: relative;
+    }
+
+    .mobilehomepage .overlap {
+        position: absolute;
+        min-width: 375px;
+        height: 58px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobilehomepage .newlogo-navbar {
+        position: absolute;
+        width: 375px;
+        height: 58px;
+        top: 0;
+        left: 0;
+        background-color: var(--brandblacktext);
+    }
+
+    .mobilehomepage .vector {
+        position: absolute;
+        width: 20px;
+        height: 14px;
+        top: 11px;
+        left: 17rem;
+    }
+
+    .mobilehomepage .group {
+        position: absolute;
+        width: 209px;
+        height: 46px;
+        top: 6px;
+        left: 28px;
+    }
+
+    .mobilehomepage .overlap-wrapper {
+        position: relative;
+        min-width: 213px;
+        height: 46px;
+        left: -12px;
+    }
+
+    .mobilehomepage .overlap-group {
+        position: relative;
+        width: 211px;
+        height: 46px;
+    }
+
+    .mobilehomepage .overlap-group-2 {
+        position: absolute;
+        width: 208px;
+        height: 46px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobilehomepage .text-wrapper {
+        top: 0;
+        -webkit-text-stroke: 0.99px #3f3f3fcf;
+        font-family: "Poppins-Regular", Helvetica;
+        font-weight: 00;
+        color: #c8f0c0;
+        font-size: 30.6px;
+        text-align: right;
+        position: absolute;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .text-wrapper-2 {
+        position: absolute;
+        top: 31px;
+        left: 118px;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 5.8px;
+        letter-spacing: 0;
+        line-height: 6.8px;
+        white-space: nowrap;
+    }
+
+    .mobilehomepage .img {
+        position: absolute;
+        width: 20px;
+        height: 18px;
+        top: 11px;
+        left: 174px;
+        background-color: transparent;
+    }
+
+    .mobilehomepage .mobile-social {
+        position: absolute;
+        width: 90px;
+        height: 13px;
+        top: 37px;
+        left: 14rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobilehomepage .microsoft {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 0;
+        left: 68px;
+    }
+
+    .mobilehomepage .github {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 0;
+        left: 54px;
+    }
+
+    .mobilehomepage .text-wrapper-3 {
+        position: absolute;
+        width: 39px;
+        top: 0;
+        left: 0;
+        font-family: "Poppins-Medium", Helvetica;
+        font-weight: 500;
+        color: #dddddd;
+        font-size: 8px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .linkedin {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 0;
+        left: 40px;
+    }
+
+    .mobilehomepage .rectangle {
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        top: 17px;
+        left: 17rem;
+        background-color: #de4013;
+    }
+
+    .mobilehomepage .renamewhenused {
+        position: absolute;
+        width: 330px;
+        height: 396px;
+        top: 103px;
+        left: 15px;
+    }
+
+    .mobilehomepage .mobile-load-of {
+        position: absolute;
+        width: 169px;
+        height: 34px;
+        top: 0;
+        left: 0;
+        width: 94%;
+    }
+
+    .mobilehomepage .text-wrapper-4 {
+        top: -1px;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        font-size: 25.2px;
+        position: absolute;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .overlap-2 {
+        position: absolute;
+        width: 330px;
+        height: 286px;
+        top: 50px;
+        left: 0;
+    }
+
+    .mobilehomepage .mobile-web {
+        position: absolute;
+        width: 315px;
+        height: 101px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobilehomepage .web-development-UX {
+        font-size: 33.3px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .mobile-paragraph {
+        position: absolute;
+        width: 330px;
+        height: 198px;
+        top: 88px;
+        left: 0;
+    }
+
+    .mobilehomepage .i-specialize-in {
+        position: absolute;
+        top: -12px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .proficient-in {
+        position: absolute;
+        top: 89px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .mobile-button {
+        display: flex;
+        min-width: 90px;
+        height: 22px;
+        align-items: center;
+        justify-content: center;
+        gap: 9.18px;
+        padding: 9.18px 11.47px;
+        position: absolute;
+        top: 359px;
+        left: 10.9rem;
+        border-radius: 3.44px;
+        border: 1.15px solid;
+        border-color: #ffffff;
+    }
+
+    .mobilehomepage .text-wrapper-5 {
+        position: relative;
+        width: fit-content;
+        margin-top: -1.47px;
+        margin-left: -0.28px;
+        margin-right: -0.28px;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        font-size: 13.8px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .renamewhenused-2 {
+        position: absolute;
+        width: 330px;
+        height: 784px;
+        top: 594px;
+        left: 15px;
+    }
+
+    .mobilehomepage .load-of-pixels-wrapper {
+        width: 94%;
+        top: 265px;
+        left: 8px;
+        position: absolute;
+        height: 67px;
+    }
+
+    .mobilehomepage .load-of-pixels {
+        font-size: 21.7px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .overlap-3 {
+        position: absolute;
+        width: 311px;
+        height: 170px;
+        top: 348px;
+        left: 9px;
+    }
+
+    .mobilehomepage .web-development-UX-wrapper {
+        width: 94%;
+        height: 95px;
+        position: absolute;
+        top: 0;
+        left: 8px;
+    }
+
+    .mobilehomepage .web-development-UX-2 {
+        font-size: 33.3px;
+        position: absolute;
+        top: -42px;
+        left: -11px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .p {
+        position: absolute;
+        top: 29px;
+        left: -2px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16.2px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .div-wrapper {
+        display: flex;
+        width: 90px;
+        height: 22px;
+        align-items: center;
+        justify-content: center;
+        gap: 9.18px;
+        padding: 8.66px 10.83px;
+        position: absolute;
+        top: 660px;
+        left: 10.5rem;
+        border-radius: 3.25px;
+        border: 1.08px solid;
+        border-color: #ffffff;
+    }
+
+
+    .mobilehomepage .text-wrapper-6 {
+        margin-top: -1.42px;
+        margin-left: -0.05px;
+        margin-right: -0.05px;
+        font-size: 13px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .rectangle-2 {
+        position: absolute;
+        width: 330px;
+        height: 249px;
+        top: 0;
+        left: 8px;
+        object-fit: cover;
+    }
+
+
+    .mobilehomepage .proficient-in-2 {
+        position: absolute;
+        top: 467px;
+        left: 7px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16.2px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .popular-services {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 33px;
+        position: absolute;
+        top: 1380px;
+        left: 40px;
+    }
+
+
+    .mobilehomepage .popular-services-2 {
+        position: relative;
+        display: flex;
+        width: 94%;
+        height: 44px;
+        top: 40px;
+        left: 16px;
+    }
+
+
+    .mobilehomepage .services-image-text {
+        position: relative;
+        width: 294.48px;
+        height: 811.71px;
+    }
+
+
+    .mobilehomepage .web-development-UX-3 {
+        position: absolute;
+        top: -52px;
+        left: -11px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        font-size: 33.3px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .cloud-services {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+
+    .mobilehomepage .rectangle-3 {
+        position: relative;
+        width: 294.48px;
+        height: 248.57px;
+        object-fit: cover;
+    }
+
+
+    .mobilehomepage .frame {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        position: absolute;
+        top: 147px;
+        left: 14px;
+    }
+
+
+    .mobilehomepage .text-wrapper-7 {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .text-wrapper-8 {
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .IT-management {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: absolute;
+        top: 282px;
+        left: 0;
+    }
+
+
+
+    .mobilehomepage .AI-assisitant {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: absolute;
+        top: 563px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .mobile-button-wrapper {
+        display: inline-flex;
+        align-items: flex-start;
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+
+    .mobilehomepage .get-in-touch-wrapper {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 8px 10px;
+        position: relative;
+        flex: 0 0 auto;
+        border-radius: 3px;
+        border: 1px solid;
+        border-color: #ffffff;
+    }
+
+
+    .mobilehomepage .get-in-touch {
+        margin-top: -1px;
+        font-size: 12px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .renamewhenused-UX {
+        position: absolute;
+        width: 330px;
+        height: 776px;
+        top: 2430px;
+        left: 22px;
+    }
+
+
+    .mobilehomepage .overlap-4 {
+        position: absolute;
+        width: 302px;
+        height: 514px;
+        top: 262px;
+        left: 10px;
+    }
+
+
+    .mobilehomepage .mobile-button-2 {
+        display: flex;
+        min-width: 90px;
+        height: 22px;
+        align-items: center;
+        justify-content: center;
+        gap: 8.59px;
+        padding: 8.59px 10.74px;
+        position: absolute;
+        top: 512px;
+        left: 10.5rem;
+        border-radius: 3.22px;
+        border: 1.07px solid;
+        border-color: #ffffff;
+    }
+
+
+    .mobilehomepage .text-wrapper-9 {
+        margin-top: -1.48px;
+        margin-left: -0.39px;
+        margin-right: -0.39px;
+        font-size: 12.9px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .group-2 {
+        position: absolute;
+        width: 297px;
+        height: 499px;
+        top: 0;
+        left: 0;
+    }
+
+
+    .mobilehomepage .mobile-load-of-2 {
+        width: 94%;
+        top: 0;
+        left: -9px;
+        position: absolute;
+        height: 67px;
+    }
+
+
+    .mobilehomepage .load-of-pixels-2 {
+        font-size: 21.5px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .overlap-5 {
+        position: absolute;
+        width: 297px;
+        height: 418px;
+        top: 82px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .mobile-web-2 {
+        width: 295px;
+        height: 94px;
+        position: absolute;
+        top: 0;
+        left: 2px;
+    }
+
+
+    .mobilehomepage .overlap-group-wrapper {
+        position: absolute;
+        width: 295px;
+        height: 335px;
+        top: 83px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .overlap-group-3 {
+        position: relative;
+        width: 291px;
+        height: 335px;
+    }
+
+
+    .mobilehomepage .at-the-core-of-our {
+        position: absolute;
+        top: 138px;
+        left: -9px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .our-approach-to-web {
+        position: absolute;
+        top: 11px;
+        left: -9px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .rectangle-4 {
+        position: absolute;
+        width: 330px;
+        height: 246px;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+
+    .mobilehomepage .renamewhenused-3 {
+        position: absolute;
+        width: 330px;
+        height: 483px;
+        top: 3341px;
+        left: 15px;
+    }
+
+
+    .mobilehomepage .text-wrapper-10 {
+        position: absolute;
+        top: -1px;
+        left: 21px;
+        font-family: "Poppins-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        font-size: 33.6px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .we-use-figma-to {
+        position: absolute;
+        width: 329px;
+        top: 78px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18.6px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .text-wrapper-11 {
+        position: absolute;
+        top: 424px;
+        left: 81px;
+        font-family: "Inter-SemiBold", Helvetica;
+        font-weight: 600;
+        color: var(--services-text);
+        font-size: 18.6px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+
+    .mobilehomepage .servicesabouthelp {
+        position: absolute;
+        width: 177px;
+        height: 440px;
+        top: 3909px;
+        left: 15px;
+    }
+
+
+    .mobilehomepage .flexcontainer {
+        height: 121px;
+        top: -1px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        position: absolute;
+        width: 177px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .text-i {
+        position: relative;
+        align-self: stretch;
+        font-family: "Open Sans-Bold", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .span {
+        font-weight: 700;
+    }
+
+
+    .mobilehomepage .text-wrapper-12 {
+        font-family: "Open Sans-Regular", Helvetica;
+        color: rgb(203, 195, 195);
+    }
+
+
+    .mobilehomepage .flexcontainer-i {
+        height: 122px;
+        text-decoration: none;
+        top: 182px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        position: absolute;
+        width: 177px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .flexcontainer-2 {
+        height: 72px;
+        top: 367px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        position: absolute;
+        width: 177px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .copyright-load-of {
+        position: absolute;
+        width: 217px;
+        height: 25px;
+        top: 4432px;
+        left: 72px;
+    }
+
+
+    .mobilehomepage .text-wrapper-13 {
+        position: absolute;
+        width: 217px;
+        top: -1px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+}
+
+/* screen size under 375px */
+@media (max-width: 375px) {
+    body {
+        max-width: 375px;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        background-color: #888787;
+        text-decoration: none;
+    }
+
+    .mobilehomepage {
+        background-color: #2c2b2b;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        min-width: 100%;
+    }
+
+    .mobilehomepage .div {
+        border: 1px solid #dedcdc;
+        background-color: #2c2b2b;
+        min-width: 375px;
+        height: 4460px;
+        position: relative;
+    }
+
+    .mobilehomepage .overlap {
+        position: absolute;
+        min-width: 375px;
+        height: 58px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobilehomepage .newlogo-navbar {
+        position: absolute;
+        width: 375px;
+        height: 58px;
+        top: 0;
+        left: 0;
+        background-color: var(--brandblacktext);
+    }
+
+    .mobilehomepage .vector {
+        position: absolute;
+        width: 20px;
+        height: 14px;
+        top: 11px;
+        left: 17rem;
+    }
+
+    .mobilehomepage .group {
+        position: absolute;
+        width: 209px;
+        height: 46px;
+        top: 6px;
+        left: 28px;
+    }
+
+    .mobilehomepage .overlap-wrapper {
+        position: relative;
+        min-width: 213px;
+        height: 46px;
+        left: -12px;
+    }
+
+    .mobilehomepage .overlap-group {
+        position: relative;
+        width: 211px;
+        height: 46px;
+    }
+
+    .mobilehomepage .overlap-group-2 {
+        position: absolute;
+        width: 208px;
+        height: 46px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobilehomepage .text-wrapper {
+        top: 0;
+        -webkit-text-stroke: 0.99px #3f3f3fcf;
+        font-family: "Poppins-Regular", Helvetica;
+        font-weight: 00;
+        color: #c8f0c0;
+        font-size: 30.6px;
+        text-align: right;
+        position: absolute;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .text-wrapper-2 {
+        position: absolute;
+        top: 31px;
+        left: 118px;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 5.8px;
+        letter-spacing: 0;
+        line-height: 6.8px;
+        white-space: nowrap;
+    }
+
+    .mobilehomepage .img {
+        position: absolute;
+        width: 20px;
+        height: 18px;
+        top: 11px;
+        left: 174px;
+        background-color: transparent;
+    }
+
+    .mobilehomepage .mobile-social {
+        position: absolute;
+        width: 90px;
+        height: 13px;
+        top: 37px;
+        left: 14rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobilehomepage .microsoft {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 0;
+        left: 68px;
+    }
+
+    .mobilehomepage .github {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 0;
+        left: 54px;
+    }
+
+    .mobilehomepage .text-wrapper-3 {
+        position: absolute;
+        width: 39px;
+        top: 0;
+        left: 0;
+        font-family: "Poppins-Medium", Helvetica;
+        font-weight: 500;
+        color: #dddddd;
+        font-size: 8px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .linkedin {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 0;
+        left: 40px;
+    }
+
+    .mobilehomepage .rectangle {
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        top: 17px;
+        left: 17rem;
+        background-color: #de4013;
+    }
+
+    .mobilehomepage .renamewhenused {
+        position: absolute;
+        width: 330px;
+        height: 396px;
+        top: 103px;
+        left: 15px;
+    }
+
+    .mobilehomepage .mobile-load-of {
+        position: absolute;
+        width: 169px;
+        height: 34px;
+        top: 0;
+        left: 0;
+        width: 94%;
+    }
+
+    .mobilehomepage .text-wrapper-4 {
+        top: -1px;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        font-size: 25.2px;
+        position: absolute;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .overlap-2 {
+        position: absolute;
+        width: 330px;
+        height: 286px;
+        top: 50px;
+        left: 0;
+    }
+
+    .mobilehomepage .mobile-web {
+        position: absolute;
+        width: 315px;
+        height: 101px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobilehomepage .web-development-UX {
+        font-size: 33.3px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .mobile-paragraph {
+        position: absolute;
+        width: 330px;
+        height: 198px;
+        top: 88px;
+        left: 0;
+    }
+
+    .mobilehomepage .i-specialize-in {
+        position: absolute;
+        top: -12px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .proficient-in {
+        position: absolute;
+        top: 89px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .mobile-button {
+        display: flex;
+        min-width: 90px;
+        height: 22px;
+        align-items: center;
+        justify-content: center;
+        gap: 9.18px;
+        padding: 9.18px 11.47px;
+        position: absolute;
+        top: 359px;
+        left: 10.9rem;
+        border-radius: 3.44px;
+        border: 1.15px solid;
+        border-color: #ffffff;
+    }
+
+    .mobilehomepage .text-wrapper-5 {
+        position: relative;
+        width: fit-content;
+        margin-top: -1.47px;
+        margin-left: -0.28px;
+        margin-right: -0.28px;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        font-size: 13.8px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .renamewhenused-2 {
+        position: absolute;
+        width: 330px;
+        height: 784px;
+        top: 594px;
+        left: 15px;
+    }
+
+    .mobilehomepage .load-of-pixels-wrapper {
+        width: 94%;
+        top: 265px;
+        left: 8px;
+        position: absolute;
+        height: 67px;
+    }
+
+    .mobilehomepage .load-of-pixels {
+        font-size: 21.7px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .overlap-3 {
+        position: absolute;
+        width: 311px;
+        height: 170px;
+        top: 348px;
+        left: 9px;
+    }
+
+    .mobilehomepage .web-development-UX-wrapper {
+        width: 94%;
+        height: 95px;
+        position: absolute;
+        top: 0;
+        left: 8px;
+    }
+
+    .mobilehomepage .web-development-UX-2 {
+        font-size: 33.3px;
+        position: absolute;
+        top: -42px;
+        left: -11px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .p {
+        position: absolute;
+        top: 29px;
+        left: -2px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16.2px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .div-wrapper {
+        display: flex;
+        width: 90px;
+        height: 22px;
+        align-items: center;
+        justify-content: center;
+        gap: 9.18px;
+        padding: 8.66px 10.83px;
+        position: absolute;
+        top: 660px;
+        left: 10.5rem;
+        border-radius: 3.25px;
+        border: 1.08px solid;
+        border-color: #ffffff;
+    }
+
+
+    .mobilehomepage .text-wrapper-6 {
+        margin-top: -1.42px;
+        margin-left: -0.05px;
+        margin-right: -0.05px;
+        font-size: 13px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .rectangle-2 {
+        position: absolute;
+        max-width: 100%;
+        height: 249px;
+        top: 0;
+        left: 8px;
+        object-fit: cover;
+    }
+
+
+    .mobilehomepage .proficient-in-2 {
+        position: absolute;
+        top: 467px;
+        left: 7px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16.2px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .popular-services {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 33px;
+        position: absolute;
+        top: 1380px;
+        left: 40px;
+    }
+
+
+    .mobilehomepage .popular-services-2 {
+        position: relative;
+        display: flex;
+        width: 94%;
+        height: 44px;
+        top: 40px;
+        left: 16px;
+    }
+
+
+    .mobilehomepage .services-image-text {
+        position: relative;
+        width: 294.48px;
+        height: 811.71px;
+    }
+
+
+    .mobilehomepage .web-development-UX-3 {
+        position: absolute;
+        top: -52px;
+        left: -11px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        font-size: 33.3px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .cloud-services {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+
+    .mobilehomepage .rectangle-3 {
+        position: relative;
+        width: 294.48px;
+        height: 248.57px;
+        object-fit: cover;
+    }
+
+
+    .mobilehomepage .frame {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        position: absolute;
+        top: 147px;
+        left: 14px;
+    }
+
+
+    .mobilehomepage .text-wrapper-7 {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .text-wrapper-8 {
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .IT-management {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: absolute;
+        top: 282px;
+        left: 0;
+    }
+
+
+
+    .mobilehomepage .AI-assisitant {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: absolute;
+        top: 563px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .mobile-button-wrapper {
+        display: inline-flex;
+        align-items: flex-start;
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+
+    .mobilehomepage .get-in-touch-wrapper {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 8px 10px;
+        position: relative;
+        flex: 0 0 auto;
+        border-radius: 3px;
+        border: 1px solid;
+        border-color: #ffffff;
+    }
+
+
+    .mobilehomepage .get-in-touch {
+        margin-top: -1px;
+        font-size: 12px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .renamewhenused-UX {
+        position: absolute;
+        width: 330px;
+        height: 776px;
+        top: 2430px;
+        left: 22px;
+    }
+
+
+    .mobilehomepage .overlap-4 {
+        position: absolute;
+        width: 302px;
+        height: 514px;
+        top: 262px;
+        left: 10px;
+    }
+
+
+    .mobilehomepage .mobile-button-2 {
+        display: flex;
+        min-width: 90px;
+        height: 22px;
+        align-items: center;
+        justify-content: center;
+        gap: 8.59px;
+        padding: 8.59px 10.74px;
+        position: absolute;
+        top: 512px;
+        left: 10.5rem;
+        border-radius: 3.22px;
+        border: 1.07px solid;
+        border-color: #ffffff;
+    }
+
+
+    .mobilehomepage .text-wrapper-9 {
+        margin-top: -1.48px;
+        margin-left: -0.39px;
+        margin-right: -0.39px;
+        font-size: 12.9px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .group-2 {
+        position: absolute;
+        width: 297px;
+        height: 499px;
+        top: 0;
+        left: 0;
+    }
+
+
+    .mobilehomepage .mobile-load-of-2 {
+        width: 94%;
+        top: 0;
+        left: -9px;
+        position: absolute;
+        height: 67px;
+    }
+
+
+    .mobilehomepage .load-of-pixels-2 {
+        font-size: 21.5px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .overlap-5 {
+        position: absolute;
+        width: 297px;
+        height: 418px;
+        top: 82px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .mobile-web-2 {
+        width: 295px;
+        height: 94px;
+        position: absolute;
+        top: 0;
+        left: 2px;
+    }
+
+
+    .mobilehomepage .overlap-group-wrapper {
+        position: absolute;
+        width: 295px;
+        height: 335px;
+        top: 83px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .overlap-group-3 {
+        position: relative;
+        width: 291px;
+        height: 335px;
+    }
+
+
+    .mobilehomepage .at-the-core-of-our {
+        position: absolute;
+        top: 138px;
+        left: -9px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .our-approach-to-web {
+        position: absolute;
+        top: 11px;
+        left: -9px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .rectangle-4 {
+        position: absolute;
+        width: 330px;
+        height: 246px;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+
+    .mobilehomepage .renamewhenused-3 {
+        position: absolute;
+        width: 330px;
+        height: 483px;
+        top: 3341px;
+        left: 15px;
+    }
+
+
+    .mobilehomepage .text-wrapper-10 {
+        position: absolute;
+        top: -1px;
+        left: 21px;
+        font-family: "Poppins-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        font-size: 33.6px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .we-use-figma-to {
+        position: absolute;
+        width: 329px;
+        top: 78px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18.6px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .text-wrapper-11 {
+        position: absolute;
+        top: 424px;
+        left: 81px;
+        font-family: "Inter-SemiBold", Helvetica;
+        font-weight: 600;
+        color: var(--services-text);
+        font-size: 18.6px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+
+    .mobilehomepage .servicesabouthelp {
+        position: absolute;
+        width: 177px;
+        height: 440px;
+        top: 3909px;
+        left: 15px;
+    }
+
+
+    .mobilehomepage .flexcontainer {
+        height: 121px;
+        top: -1px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        position: absolute;
+        width: 177px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .text-i {
+        position: relative;
+        align-self: stretch;
+        font-family: "Open Sans-Bold", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .span {
+        font-weight: 700;
+    }
+
+
+    .mobilehomepage .text-wrapper-12 {
+        font-family: "Open Sans-Regular", Helvetica;
+        color: rgb(203, 195, 195);
+    }
+
+
+    .mobilehomepage .flexcontainer-i {
+        height: 122px;
+        text-decoration: none;
+        top: 182px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        position: absolute;
+        width: 177px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .flexcontainer-2 {
+        height: 72px;
+        top: 367px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        position: absolute;
+        width: 177px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .copyright-load-of {
+        position: absolute;
+        width: 217px;
+        height: 25px;
+        top: 4432px;
+        left: 72px;
+    }
+
+
+    .mobilehomepage .text-wrapper-13 {
+        position: absolute;
+        width: 217px;
+        top: -1px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+}
+
+/* screen size under 425px */
+@media (min-width: 425px) {
+    body {
+        max-width: 425px;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        background-color: #888787;
+        text-decoration: none;
+    }
+
+    .mobilehomepage {
+        background-color: #2c2b2b;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        min-width: 100%;
+    }
+
+    .mobilehomepage .div {
+        background-color: #2c2b2b;
+        min-width: 425px;
+        height: 4460px;
+        position: relative;
+    }
+
+    .mobilehomepage .overlap {
+        position: absolute;
+        min-width: 425px;
+        height: 58px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobilehomepage .newlogo-navbar {
+        position: absolute;
+        width: 425px;
+        height: 58px;
+        top: 0;
+        left: 0;
+        background-color: var(--brandblacktext);
+    }
+
+    .mobilehomepage .vector {
+        position: absolute;
+        width: 20px;
+        height: 14px;
+        top: 11px;
+        left: 19.5rem;
+    }
+
+    .mobilehomepage .group {
+        position: absolute;
+        width: 209px;
+        height: 46px;
+        top: 6px;
+        left: 28px;
+    }
+
+    .mobilehomepage .overlap-wrapper {
+        position: relative;
+        min-width: 213px;
+        height: 46px;
+        left: -12px;
+    }
+
+    .mobilehomepage .overlap-group {
+        position: relative;
+        width: 211px;
+        height: 46px;
+    }
+
+    .mobilehomepage .overlap-group-2 {
+        position: absolute;
+        width: 208px;
+        height: 46px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobilehomepage .text-wrapper {
+        top: 0;
+        -webkit-text-stroke: 0.99px #3f3f3fcf;
+        font-family: "Poppins-Regular", Helvetica;
+        font-weight: 600;
+        color: #c8f0c0;
+        font-size: 30.6px;
+        text-align: right;
+        position: absolute;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobilehomepage .text-wrapper-2 {
+        position: absolute;
+        top: 31px;
+        left: 129px;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 5.8px;
+        letter-spacing: 0;
+        line-height: 6.8px;
+        white-space: nowrap;
+    }
+
+
+    .mobilehomepage .img {
+        position: absolute;
+        width: 20px;
+        height: 18px;
+        top: 11px;
+        left: 190px;
+        background-color: transparent;
+    }
+
+
+    .mobilehomepage .mobile-social {
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        top: 37px;
+        left: 16.1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .mobilehomepage .microsoft {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        top: 0;
+        left: 72px;
+
+    }
+
+
+    .mobilehomepage .github {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        top: 0;
+        left: 54px;
+    }
+
+
+    .mobilehomepage .text-wrapper-3 {
+        position: absolute;
+        width: 39px;
+        top: 5px;
+        left: -4px;
+        font-family: "Poppins-Medium", Helvetica;
+        font-weight: 500;
+        color: #dddddd;
+        font-size: 9px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .linkedin {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        top: 0;
+        left: 36px;
+    }
+
+
+    .mobilehomepage .rectangle {
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        top: 17px;
+        left: 19.5rem;
+        background-color: #de4013;
+    }
+
+
+    .mobilehomepage .renamewhenused {
+        position: absolute;
+        min-width: 90%;
+        height: 396px;
+        top: 103px;
+        left: 15px;
+    }
+
+
+    .mobilehomepage .mobile-load-of {
+        position: absolute;
+        width: 169px;
+        height: 34px;
+        top: 0;
+        left: 0;
+        width: 94%;
+    }
+
+
+    .mobilehomepage .text-wrapper-4 {
+        top: -1px;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        font-size: 28.2px;
+        position: absolute;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .overlap-2 {
+        position: absolute;
+        width: 330px;
+        height: 286px;
+        top: 50px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .mobile-web {
+        position: absolute;
+        width: 315px;
+        height: 101px;
+        top: 0;
+        left: 0;
+    }
+
+
+    .mobilehomepage .web-development-UX {
+        font-size: 36.3px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .mobile-paragraph {
+        position: absolute;
+        min-width: 90%;
+        height: 198px;
+        top: 88px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .i-specialize-in {
+        position: absolute;
+        top: -12px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+
+    .mobilehomepage .proficient-in {
+        position: absolute;
+        min-height: 90%;
+        top: 89px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+
+    .mobilehomepage .mobile-button {
+        display: flex;
+        min-width: 90px;
+        height: 22px;
+        align-items: center;
+        justify-content: center;
+        gap: 9.18px;
+        padding: 9.18px 11.47px;
+        position: absolute;
+        top: 359px;
+        left: 13.9rem;
+        border-radius: 3.44px;
+        border: 1.15px solid;
+        border-color: #ffffff;
+    }
+
+
+    .mobilehomepage .text-wrapper-5 {
+        position: relative;
+        width: fit-content;
+        margin-top: -1.47px;
+        margin-left: -0.28px;
+        margin-right: -0.28px;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        font-size: 13.8px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+
+    .mobilehomepage .renamewhenused-2 {
+        position: absolute;
+        width: 330px;
+        height: 784px;
+        top: 594px;
+        left: 15px;
+    }
+
+
+    .mobilehomepage .load-of-pixels-wrapper {
+        width: 94%;
+        top: 265px;
+        left: 8px;
+        position: absolute;
+        height: 67px;
+    }
+
+
+    .mobilehomepage .load-of-pixels {
+        font-size: 21.7px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .overlap-3 {
+        position: absolute;
+        width: 311px;
+        height: 170px;
+        top: 348px;
+        left: 9px;
+    }
+
+
+    .mobilehomepage .web-development-UX-wrapper {
+        width: 94%;
+        height: 95px;
+        position: absolute;
+        top: 0;
+        left: 8px;
+    }
+
+
+    .mobilehomepage .web-development-UX-2 {
+        font-size: 33.3px;
+        position: absolute;
+        top: -42px;
+        left: -11px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .p {
+        position: absolute;
+        top: 29px;
+        left: -2px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16.2px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .div-wrapper {
+        display: flex;
+        width: 90px;
+        height: 22px;
+        align-items: center;
+        justify-content: center;
+        gap: 9.18px;
+        padding: 8.66px 10.83px;
+        position: absolute;
+        top: 660px;
+        left: 13.5rem;
+        border-radius: 3.25px;
+        border: 1.08px solid;
+        border-color: #ffffff;
+    }
+
+
+    .mobilehomepage .text-wrapper-6 {
+        margin-top: -1.42px;
+        margin-left: -0.05px;
+        margin-right: -0.05px;
+        font-size: 13px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .rectangle-2 {
+        position: absolute;
+        min-width: 375px;
+        height: 249px;
+        top: 0;
+        left: 8px;
+        object-fit: cover;
+    }
+
+
+    .mobilehomepage .proficient-in-2 {
+        position: absolute;
+        top: 467px;
+        left: 7px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16.2px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .popular-services {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 33px;
+        position: absolute;
+        top: 1380px;
+        left: 65px;
+    }
+
+
+    .mobilehomepage .popular-services-2 {
+        position: relative;
+        display: flex;
+        width: 94%;
+        height: 44px;
+        top: 40px;
+        left: 16px;
+    }
+
+
+    .mobilehomepage .services-image-text {
+        position: relative;
+        width: 294.48px;
+        height: 811.71px;
+    }
+
+
+    .mobilehomepage .web-development-UX-3 {
+        position: absolute;
+        top: -52px;
+        left: -11px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        font-size: 33.3px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .cloud-services {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+    .mobilehomepage .rectangle-3 {
+        position: relative;
+        width: 294.48px;
+        height: 248.57px;
+        object-fit: cover;
+    }
+
+
+    .mobilehomepage .frame {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        position: absolute;
+        top: 147px;
+        left: 14px;
+    }
+
+
+    .mobilehomepage .text-wrapper-7 {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .text-wrapper-8 {
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .IT-management {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: absolute;
+        top: 282px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .AI-assisitant {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: absolute;
+        top: 563px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .mobile-button-wrapper {
+        display: inline-flex;
+        align-items: flex-start;
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+
+    .mobilehomepage .get-in-touch-wrapper {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 8px 10px;
+        position: relative;
+        flex: 0 0 auto;
+        border-radius: 3px;
+        border: 1px solid;
+        border-color: #ffffff;
+    }
+
+
+    .mobilehomepage .get-in-touch {
+        margin-top: -1px;
+        font-size: 12px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .renamewhenused-UX {
+        position: absolute;
+        width: 330px;
+        height: 776px;
+        top: 2430px;
+        left: 22px;
+    }
+
+
+    .mobilehomepage .overlap-4 {
+        position: absolute;
+        width: 302px;
+        height: 514px;
+        top: 262px;
+        left: 10px;
+    }
+
+
+    .mobilehomepage .mobile-button-2 {
+        display: flex;
+        min-width: 90px;
+        height: 22px;
+        align-items: center;
+        justify-content: center;
+        gap: 8.59px;
+        padding: 8.59px 10.74px;
+        position: absolute;
+        top: 512px;
+        left: 13.5rem;
+        border-radius: 3.22px;
+        border: 1.07px solid;
+        border-color: #ffffff;
+    }
+
+
+    .mobilehomepage .text-wrapper-9 {
+        margin-top: -1.48px;
+        margin-left: -0.39px;
+        margin-right: -0.39px;
+        font-size: 12.9px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .group-2 {
+        position: absolute;
+        width: 297px;
+        height: 499px;
+        top: 0;
+        left: 0;
+    }
+
+
+    .mobilehomepage .mobile-load-of-2 {
+        width: 94%;
+        top: 0;
+        left: -9px;
+        position: absolute;
+        height: 67px;
+    }
+
+
+    .mobilehomepage .load-of-pixels-2 {
+        font-size: 21.5px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .overlap-5 {
+        position: absolute;
+        width: 297px;
+        height: 418px;
+        top: 82px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .mobile-web-2 {
+        width: 295px;
+        height: 94px;
+        position: absolute;
+        top: 0;
+        left: 2px;
+    }
+
+
+    .mobilehomepage .overlap-group-wrapper {
+        position: absolute;
+        width: 295px;
+        height: 335px;
+        top: 83px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .overlap-group-3 {
+        position: relative;
+        width: 291px;
+        height: 335px;
+    }
+
+
+    .mobilehomepage .at-the-core-of-our {
+        position: absolute;
+        top: 138px;
+        left: -9px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .our-approach-to-web {
+        position: absolute;
+        top: 11px;
+        left: -9px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .rectangle-4 {
+        position: absolute;
+        min-width: 375px;
+        height: 246px;
+        top: 0;
+        left: 3px;
+        object-fit: cover;
+    }
+
+
+    .mobilehomepage .renamewhenused-3 {
+        position: absolute;
+        width: 330px;
+        height: 483px;
+        top: 3341px;
+        left: 44px;
+    }
+
+
+    .mobilehomepage .text-wrapper-10 {
+        position: absolute;
+        top: -1px;
+        left: 21px;
+        font-family: "Poppins-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        font-size: 33.6px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .we-use-figma-to {
+        position: absolute;
+        width: 329px;
+        top: 78px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 18.6px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .text-wrapper-11 {
+        position: absolute;
+        top: 424px;
+        left: 81px;
+        font-family: "Inter-SemiBold", Helvetica;
+        font-weight: 600;
+        color: var(--services-text);
+        font-size: 18.6px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+
+    .mobilehomepage .servicesabouthelp {
+        position: absolute;
+        width: 177px;
+        height: 440px;
+        top: 3909px;
+        left: 23px;
+    }
+
+
+    .mobilehomepage .flexcontainer {
+        height: 121px;
+        top: -1px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        position: absolute;
+        width: 177px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .text-i {
+        position: relative;
+        align-self: stretch;
+        font-family: "Open Sans-Bold", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+    .mobilehomepage .span {
+        font-weight: 700;
+    }
+
+
+    .mobilehomepage .text-wrapper-12 {
+        font-family: "Open Sans-Regular", Helvetica;
+        color: rgb(203, 195, 195);
+    }
+
+
+    .mobilehomepage .flexcontainer-i {
+        height: 122px;
+        text-decoration: none;
+        top: 182px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        position: absolute;
+        width: 177px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .flexcontainer-2 {
+        height: 72px;
+        top: 367px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        position: absolute;
+        width: 177px;
+        left: 0;
+    }
+
+
+    .mobilehomepage .copyright-load-of {
+        position: absolute;
+        width: 217px;
+        height: 25px;
+        top: 4432px;
+        left: 72px;
+    }
+
+
+    .mobilehomepage .text-wrapper-13 {
+        position: absolute;
+        width: 217px;
+        top: -13px;
+        left: 41px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+}
+
+/* screen size under 425px */
+@media (min-width: 480px) and (max-width: 576px) {
+    body {
+
+        min-width: 576px;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        background-color: #888787;
+        text-decoration: none;
+    }
+
+    .mobile-home-page {
+        background-color: #ba1d1d;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .mobile-home-page .div {
+        margin-left: 2rem;
+        background-color: #262626;
+        width: 576px;
+        height: 7278px;
+        position: relative;
+    }
+
+    .mobile-home-page .overlap {
+        position: absolute;
+        width: 576px;
+        height: 93px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobile-home-page .newlogo-navbar {
+        position: absolute;
+        width: 576px;
+        height: 93px;
+        top: 0;
+        left: 0;
+        background-color: var(--brandblacktext);
+    }
+
+    .mobile-home-page .vector {
+        position: absolute;
+        width: 32px;
+        height: 22px;
+        top: 18px;
+        left: 525px;
+    }
+
+    .mobile-home-page .group {
+        position: absolute;
+        width: 334px;
+        height: 73px;
+        top: 10px;
+        left: 44px;
+    }
+
+    .mobile-home-page .overlap-wrapper {
+        width: 338px;
+        height: 73px;
+    }
+
+    .mobile-home-page .overlap-group {
+        position: relative;
+        width: 337px;
+        height: 73px;
+    }
+
+    .mobile-home-page .overlap-group-2 {
+        position: absolute;
+        width: 333px;
+        height: 73px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobile-home-page .text-wrapper {
+        top: 0;
+        -webkit-text-stroke: 1.58px #979797cf;
+        font-family: "Poppins-Regular", Helvetica;
+        font-weight: 400;
+        color: #bab9b9;
+        font-size: 49px;
+        text-align: right;
+        position: absolute;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .text-wrapper-2 {
+        position: absolute;
+        top: 57px;
+        left: 205px;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 9.3px;
+        letter-spacing: 0;
+        line-height: 10.9px;
+        white-space: nowrap;
+    }
+
+    .mobile-home-page .img {
+        position: absolute;
+        width: 32px;
+        height: 29px;
+        top: 25px;
+        left: 306px;
+    }
+
+    .mobile-home-page .mobile-social {
+        position: absolute;
+        width: 128px;
+        height: 21px;
+        top: 59px;
+        left: 429px;
+    }
+
+    .mobile-home-page .group-2 {
+        position: relative;
+        width: 142px;
+        height: 24px;
+        top: -2px;
+        left: -11px;
+    }
+
+    .mobile-home-page .microsoft {
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        top: 0;
+        left: 117px;
+    }
+
+    .mobile-home-page .github {
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        top: 0;
+        left: 91px;
+    }
+
+    .mobile-home-page .text-wrapper-3 {
+        position: absolute;
+        width: 62px;
+        height: 19px;
+        top: 5px;
+        left: 0;
+        font-family: "Poppins-Medium", Helvetica;
+        font-weight: 500;
+        color: #dddddd;
+        font-size: 12.8px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .linkedin {
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        top: 0;
+        left: 66px;
+    }
+
+    .mobile-home-page .rectangle {
+        position: absolute;
+        width: 32px;
+        height: 4px;
+        top: 27px;
+        left: 525px;
+        background-color: #de4013;
+    }
+
+    .mobile-home-page .renamewhenused-wrapper {
+        position: absolute;
+        width: 542px;
+        height: 1286px;
+        top: 970px;
+        left: 17px;
+    }
+
+    .mobile-home-page .renamewhenused {
+        position: relative;
+        height: 1286px;
+    }
+
+    .mobile-home-page .mobile-load-of {
+        position: absolute;
+        width: 295px;
+        height: 110px;
+        top: 435px;
+        left: 18px;
+    }
+
+    .mobile-home-page .load-of-pixels {
+        top: -2px;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        font-size: 35.5px;
+        position: absolute;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .mobile-button {
+        display: flex;
+        width: 162px;
+        height: 57px;
+        align-items: center;
+        justify-content: center;
+        gap: 14.21px;
+        padding: 14.21px 17.77px;
+        position: absolute;
+        top: 1229px;
+        left: 352px;
+        border-radius: 5.33px;
+        border: 1.78px solid;
+        border-color: #ffffff;
+    }
+
+    .mobile-home-page .text-wrapper-4 {
+        position: relative;
+        width: fit-content;
+        margin-top: -2.06px;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        font-size: 21.3px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .rectangle-2 {
+        position: absolute;
+        width: 542px;
+        height: 408px;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+    .mobile-home-page .overlap-group-3 {
+        position: absolute;
+        width: 516px;
+        height: 640px;
+        top: 572px;
+        left: 14px;
+    }
+
+    .mobile-home-page .with-knowledge-of {
+        position: absolute;
+        top: 136px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 26.7px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .mobile-web {
+        position: absolute;
+        width: 512px;
+        height: 166px;
+        top: 0;
+        left: 4px;
+    }
+
+    .mobile-home-page .web-development-UX {
+        position: absolute;
+        top: -2px;
+        left: 0;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        font-size: 54.6px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .popular-services {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 54.14px;
+        position: absolute;
+        top: 2394px;
+        left: 46px;
+    }
+
+    .mobile-home-page .web-development-UX-wrapper {
+        position: relative;
+        width: 405.22px;
+        height: 72.18px;
+    }
+
+    .mobile-home-page .web-development-UX-2 {
+        position: absolute;
+        top: -2px;
+        left: 0;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        font-size: 47.6px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .services-image-text {
+        position: relative;
+        width: 483.11px;
+        height: 1331.67px;
+    }
+
+    .mobile-home-page .cloud-services {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16.41px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .mobile-home-page .rectangle-3 {
+        position: relative;
+        width: 483.11px;
+        height: 407.8px;
+        object-fit: cover;
+    }
+
+    .mobile-home-page .frame {
+        top: 241px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6.56px;
+        position: absolute;
+        left: 23px;
+    }
+
+    .mobile-home-page .text-wrapper-5 {
+        position: relative;
+        width: fit-content;
+        margin-top: -1.64px;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 24.6px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .text-wrapper-6 {
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 29.5px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .IT-management {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16.41px;
+        position: absolute;
+        top: 462px;
+        left: 0;
+    }
+
+    .mobile-home-page .frame-2 {
+        top: 242px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6.56px;
+        position: absolute;
+        left: 23px;
+    }
+
+    .mobile-home-page .AI-assisitant {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16.41px;
+        position: absolute;
+        top: 924px;
+        left: 0;
+    }
+
+    .mobile-home-page .mobile-button-wrapper {
+        display: inline-flex;
+        align-items: flex-start;
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+    .mobile-home-page .get-in-touch-wrapper {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 13.12px;
+        padding: 13.12px 16.41px;
+        position: relative;
+        flex: 0 0 auto;
+        border-radius: 4.92px;
+        border: 1.64px solid;
+        border-color: #ffffff;
+    }
+
+    .mobile-home-page .get-in-touch {
+        margin-top: -1.64px;
+        font-size: 19.7px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .renamewhenused-UX-wrapper {
+        position: absolute;
+        width: 541px;
+        height: 1273px;
+        top: 4094px;
+        left: 17px;
+    }
+
+    .mobile-home-page .renamewhenused-UX {
+        position: relative;
+        height: 1273px;
+    }
+
+    .mobile-home-page .overlap-group-4 {
+        position: absolute;
+        width: 491px;
+        height: 710px;
+        top: 564px;
+        left: 19px;
+    }
+
+    .mobile-home-page .div-wrapper {
+        display: flex;
+        width: 160px;
+        height: 56px;
+        align-items: center;
+        justify-content: center;
+        gap: 14.09px;
+        padding: 14.09px 17.61px;
+        position: absolute;
+        top: 653px;
+        left: 331px;
+        border-radius: 5.28px;
+        border: 1.76px solid;
+        border-color: #ffffff;
+    }
+
+    .mobile-home-page .text-wrapper-7 {
+        margin-top: -2.17px;
+        font-size: 21.1px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .mobile-web-2 {
+        width: 484px;
+        height: 155px;
+        top: 0;
+        position: absolute;
+        left: 0;
+    }
+
+    .mobile-home-page .our-approach-to-web {
+        position: absolute;
+        top: 133px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 26.7px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .load-of-pixels-wrapper {
+        position: absolute;
+        width: 292px;
+        height: 109px;
+        top: 430px;
+        left: 19px;
+    }
+
+    .mobile-home-page .load-of-pixels-2 {
+        font-size: 35.2px;
+        position: absolute;
+        top: -2px;
+        left: 0;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .rectangle-4 {
+        position: absolute;
+        width: 541px;
+        height: 404px;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+    .mobile-home-page .renamewhenused-2 {
+        position: absolute;
+        width: 541px;
+        height: 792px;
+        top: 5528px;
+        left: 18px;
+    }
+
+    .mobile-home-page .text-wrapper-8 {
+        position: absolute;
+        top: -2px;
+        left: 39px;
+        font-family: "Poppins-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--main-text);
+        font-size: 55.2px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .we-use-figma-to {
+        position: absolute;
+        width: 540px;
+        top: 128px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 26.5px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .text-wrapper-9 {
+        position: absolute;
+        top: 667px;
+        left: 133px;
+        font-family: "Inter-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 30.4px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .servicesabouthelp {
+        position: absolute;
+        width: 290px;
+        height: 721px;
+        top: 6359px;
+        left: 17px;
+    }
+
+    .mobile-home-page .flexcontainer {
+        height: 198px;
+        top: -2px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4.92px;
+        position: absolute;
+        width: 290px;
+        left: 0;
+    }
+
+    .mobile-home-page .text-i {
+        position: relative;
+        align-self: stretch;
+        font-family: "Open Sans-Bold", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 26.2px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .span {
+        font-weight: 700;
+    }
+
+    .mobile-home-page .text-wrapper-10 {
+        font-family: "Open Sans-Regular", Helvetica;
+        text-decoration: underline;
+    }
+
+    .mobile-home-page .flexcontainer-i {
+        height: 200px;
+        top: 299px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4.92px;
+        position: absolute;
+        width: 290px;
+        left: 0;
+    }
+
+    .mobile-home-page .flexcontainer-2 {
+        height: 118px;
+        top: 602px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4.92px;
+        position: absolute;
+        width: 290px;
+        left: 0;
+    }
+
+    .mobile-home-page .overlap-group-wrapper {
+        position: absolute;
+        width: 514px;
+        height: 625px;
+        top: 188px;
+        left: 31px;
+    }
+
+    .mobile-home-page .overlap-2 {
+        position: relative;
+        width: 512px;
+        height: 625px;
+    }
+
+    .mobile-home-page .group-3 {
+        position: absolute;
+        width: 512px;
+        height: 625px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobile-home-page .mobile-load-of-2 {
+        position: absolute;
+        width: 274px;
+        height: 56px;
+        top: 0;
+        left: 0;
+    }
+
+    .mobile-home-page .text-wrapper-11 {
+        font-size: 41.4px;
+        position: absolute;
+        top: -2px;
+        left: 0;
+        font-family: "Poppins-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #f56f0f;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .mobile-web-3 {
+        width: 512px;
+        height: 166px;
+        top: 83px;
+        position: absolute;
+        left: 0;
+    }
+
+    .mobile-home-page .mobile-button-2 {
+        display: flex;
+        width: 169px;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        gap: 15.05px;
+        padding: 15.05px 18.82px;
+        position: absolute;
+        top: 565px;
+        left: 315px;
+        border-radius: 5.64px;
+        border: 1.88px solid;
+        border-color: #ffffff;
+    }
+
+    .mobile-home-page .text-wrapper-12 {
+        margin-top: -2.33px;
+        margin-left: -1.1px;
+        margin-right: -1.1px;
+        font-size: 22.6px;
+        position: relative;
+        width: fit-content;
+        font-family: "Open Sans-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #fcfdfd;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .i-specialize-in {
+        position: absolute;
+        top: 237px;
+        left: 0;
+        font-family: "Open Sans-Regular", Helvetica;
+        font-weight: 400;
+        color: var(--main-text);
+        font-size: 26.7px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .mobile-home-page .copyright-load {
+        position: absolute;
+        width: 429px;
+        height: 38px;
+        top: 7228px;
+        left: 73px;
+    }
+
+    .mobile-home-page .p {
+        position: absolute;
+        top: -1px;
+        left: 0;
+        font-family: "Inter-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 30.8px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+
+
+}
