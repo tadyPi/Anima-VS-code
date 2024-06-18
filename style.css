@@ -16,17 +16,17 @@ body {
 }
 
 .mobilehomepage {
-    background-color: #2c2b2b;
+    background-color: #2c2b2c;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    min-width: 100%;
+    min-width: 430px;
 }
 
 .mobilehomepage .div {
     /* border: 1px solid #dedcdc; */
     background-color: #2c2b2b;
-    min-width: 100%;
+    width: 430px;
     height: 4460px;
     position: relative;
 }
@@ -52,8 +52,8 @@ body {
     position: absolute;
     width: 20px;
     height: 14px;
-    top: 11px;
-    left: 16.4rem;
+    top: 5px;
+    left: 18.5rem;
 }
 
 .mobilehomepage .group {
@@ -81,7 +81,7 @@ body {
     position: absolute;
     width: 208px;
     height: 46px;
-    top: 0;
+    top: 4px;
     left: 0;
 }
 
@@ -116,7 +116,7 @@ body {
     position: absolute;
     width: 20px;
     height: 18px;
-    top: 11px;
+    top: 14.5px;
     left: 174px;
     background-color: transparent;
 }
@@ -126,7 +126,7 @@ body {
     width: 90px;
     height: 13px;
     top: 37px;
-    left: 13.3rem;
+    left: 16.8rem;
     display: flex;
     justify-content: space-between;
 }
@@ -173,16 +173,16 @@ body {
     width: 20px;
     height: 2px;
     top: 17px;
-    left: 328px;
+    left: 19.9rem;
     background-color: #de4013;
 }
 
 .mobilehomepage .renamewhenused {
     position: absolute;
-    width: 330px;
+    min-width: 400px;
     height: 396px;
     top: 103px;
-    left: 15px;
+    left: 24px;
 }
 
 .mobilehomepage .mobile-load-of {
@@ -197,9 +197,9 @@ body {
 .mobilehomepage .text-wrapper-4 {
     top: -1px;
     font-family: "Poppins-SemiBold", Helvetica;
-    font-weight: 600;
+    font-weight: 400;
     color: #f56f0f;
-    font-size: 25.2px;
+    font-size: 30px;
     position: absolute;
     left: 0;
     letter-spacing: 0;
@@ -208,7 +208,7 @@ body {
 
 .mobilehomepage .overlap-2 {
     position: absolute;
-    width: 330px;
+    width: 400px;
     height: 286px;
     top: 50px;
     left: 0;
@@ -216,14 +216,15 @@ body {
 
 .mobilehomepage .mobile-web {
     position: absolute;
-    width: 315px;
+    width: 400px;
     height: 101px;
     top: 0;
     left: 0;
 }
 
 .mobilehomepage .web-development-UX {
-    font-size: 33.3px;
+    width: 400px;
+    font-size: 35px;
     position: absolute;
     top: -1px;
     left: 0;
@@ -236,7 +237,7 @@ body {
 
 .mobilehomepage .mobile-paragraph {
     position: absolute;
-    width: 330px;
+    width: 400px;
     height: 198px;
     top: 88px;
     left: 0;
@@ -249,19 +250,19 @@ body {
     font-family: "Open Sans-Regular", Helvetica;
     font-weight: 400;
     color: var(--main-text);
-    font-size: 18px;
+    font-size: 19px;
     letter-spacing: 0;
     line-height: normal;
 }
 
 .mobilehomepage .proficient-in {
     position: absolute;
-    top: 89px;
+    top: 60px;
     left: 0;
     font-family: "Open Sans-Regular", Helvetica;
     font-weight: 400;
     color: var(--main-text);
-    font-size: 18px;
+    font-size: 19px;
     letter-spacing: 0;
     line-height: normal;
 }
@@ -275,8 +276,8 @@ body {
     gap: 9.18px;
     padding: 9.18px 11.47px;
     position: absolute;
-    top: 359px;
-    left: 10.5rem;
+    top: 330px;
+    left: 13rem;
     border-radius: 3.44px;
     border: 1.15px solid;
     border-color: #ffffff;
@@ -298,7 +299,7 @@ body {
 
 .mobilehomepage .renamewhenused-2 {
     position: absolute;
-    width: 330px;
+    width: 400px;
     height: 784px;
     top: 594px;
     left: 15px;
@@ -825,216 +826,8 @@ body {
 }
 
 
-@media (min-width: 320px) and (max-width: 375px) {
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: #888787;
-        text-decoration: none;
-        border: none;
-    }
-
-    .mobilehomepage {
-        position: absolute;
-        width: 100%;
-        /* Fill the width */
-        box-sizing: border-box;
-        /* Include border in width */
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .mobilehomepage .div {
-        height: 4460px;
-        position: relative;
-        width: 100%;
-        /* Add this */
-    }
-
-    .mobilehomepage .overlap {
-        position: absolute;
-        width: 100%;
-        /* Change this */
-        height: 48px;
-        top: 0;
-        left: 0;
-        /* Change this */
-        border-bottom: 1px solid #a8a5a5;
-    }
-
-    .mobilehomepage .text-wrapper {
-        width: 219%;
-        position: absolute;
-        left: 0;
-    }
-
-    .mobilehomepage .newlogo-navbar {
-        position: absolute;
-        width: 100%;
-        /* Change this */
-        height: 48px;
-        top: 0;
-        left: 0;
-        background-color: var(--brandblacktext);
-    }
-
-    .mobilehomepage .vector {
-        position: absolute;
-        width: 20px;
-        height: 14px;
-        top: 11px;
-        left: 15.4rem;
-    }
-
-    .mobilehomepage .group {
-        position: absolute;
-        width: 65%;
-        /* Change this */
-        height: 46px;
-        top: 6px;
-        left: 15px;
-    }
-
-    .mobilehomepage .overlap-wrapper {
-        position: relative;
-        width: 66%;
-        /* Change this */
-        height: 46px;
-        left: -12px;
-    }
-
-    .mobilehomepage .overlap-group {
-        position: relative;
-        width: 66%;
-        /* Change this */
-        height: 46px;
-    }
-
-    .mobilehomepage .overlap-group-2 {
-        position: absolute;
-        width: 65%;
-        /* Change this */
-        height: 46px;
-        top: 0;
-        left: 0;
-    }
-
-    .mobilehomepage .text-wrapper {
-        top: 0;
-        -webkit-text-stroke: 0.99px #3f3f3fcf;
-        font-family: "Poppins-Regular", Helvetica;
-        font-weight: 00;
-        color: #c8f0c0
-    }
-
-    .mobilehomepage .rectangle-2 {
-        position: absolute;
-        max-width: 88%;
-        /* Change this */
-        height: 222px;
-        top: 16px;
-        left: 1px;
-        object-fit: cover;
-        border: 1px solid #dedcdc;
-    }
-
-    .mobilehomepage .img {
-        position: absolute;
-        width: 20px;
-        height: 18px;
-        top: 11px;
-        left: 202px;
-        background-color: transparent;
-    }
-
-    .mobilehomepage .text-wrapper-2 {
-        left: 143px;
-    }
-
-    .mobilehomepage .mobile-social {
-        position: absolute;
-        left: 13.7rem;
-        top: 31px;
-    }
-
-    .mobilehomepage .rectangle {
-        left: 92.9%;
-        /* Change this */
-    }
-
-    .mobilehomepage .vector {
-        left: 16.7rem;
-    }
-
-    .mobilehomepage .rectangle-4 {
-        left: 3px;
-    }
-
-    .mobilehomepage .renamewhenused,
-    .mobilehomepage .renamewhenused-3 {
-        left: 23px;
-    }
-
-    .mobilehomepage .text-wrapper-4,
-    .mobilehomepage .web-development-UX,
-    .mobilehomepage .i-specialize-in,
-    .mobilehomepage .proficient-in,
-    .mobilehomepage .load-of-pixels-wrapper,
-    .mobilehomepage .web-development-UX-2,
-    .mobilehomepage .p,
-    .mobilehomepage .proficient-in-2,
-    .mobilehomepage .load-of-pixels-2,
-    .mobilehomepage .web-development-UX-3,
-    .mobilehomepage .our-approach-to-web,
-    .mobilehomepage .at-the-core-of-our,
-    .mobilehomepage .we-use-figma-to {
-        margin-left: 10px;
-    }
-
-    .mobilehomepage .mobile-button {
-        height: 16px;
-        min-width: 80px;
-        margin-top: 4px;
-        margin-left: 2px;
-
-    }
-
-    .mobilehomepage .text-wrapper-3 {
-        top: 5px;
-    }
-
-    .mobilehomepage .renamewhenused-2 {
-        left: 23px;
-    }
-
-    .mobilehomepage .renamewhenused-UX {
-        left: 23px;
-    }
-
-    .mobilehomepage .we-use-figma-to {
-        font-size: 17.6px;
-    }
-
-    .mobilehomepage .servicesabouthelp {
-        left: 32px;
-    }
-
-    .mobilehomepage .services-image-text {
-        left: 9px;
-    }
-
-    .mobilehomepage .text-wrapper-11 {
-        left: 75px;
-    }
-
-    .mobilehomepage .mobile-button-2 {
-        top: 577px;
-    }
-
-}
-
-@media (min-width: 376px) and (max-width: 425px) {
+/* screen sizes bigger than 425px*/
+@media (min-width: 620px) {
     body {
         margin: 0;
         padding: 0;
@@ -1049,12 +842,12 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        min-width: 100%;
+        width: 430px;
     }
 
     .mobilehomepage .div {
         background-color: #000;
-        width: 100%;
+        /* width: 100%; */
         /* Change this */
         box-sizing: border-box;
         /* Add this */
@@ -1064,18 +857,19 @@ body {
 
     .mobilehomepage .overlap {
         position: absolute;
-        width: 100%;
+        /* width: 100%; */
         /* Change this */
         box-sizing: border-box;
         /* Add this */
         height: 58px;
         top: 0;
         left: 0;
+        border: 1px solid #dedcdc;
     }
 
     .mobilehomepage .newlogo-navbar {
         position: absolute;
-        width: 100%;
+        /* width: 100%; */
         /* Change this */
         box-sizing: border-box;
         /* Add this */
@@ -1090,7 +884,7 @@ body {
         width: 20px;
         height: 14px;
         top: 11px;
-        left: 19.4rem;
+        left: 91%;
     }
 
     .mobilehomepage .rectangle {
@@ -1098,7 +892,7 @@ body {
         width: 20px;
         height: 2px;
         top: 17px;
-        left: 19.4rem;
+        left: 91%;
         background-color: #de4013;
     }
 
@@ -1168,40 +962,40 @@ body {
     }
 
     .mobilehomepage .mobile-social {
-        position: absolute;
-        width: 90px;
+        position: relative;
+        width: 120px;
         height: 13px;
-        top: 37px;
-        left: 16.3rem;
+        top: 29px;
+        left: 71%;
         display: flex;
         justify-content: space-between;
     }
 
     .mobilehomepage .microsoft {
         position: absolute;
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
         top: 0;
-        left: 68px;
+        left: 101px;
     }
 
     .mobilehomepage .github {
         position: absolute;
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
         top: 0;
-        left: 54px;
+        left: 79px;
     }
 
     .mobilehomepage .text-wrapper-3 {
         position: absolute;
-        width: 39px;
-        top: 0;
-        left: 0;
+        width: 44px;
+        top: 3px;
+        left: 10px;
         font-family: "Poppins-Medium", Helvetica;
         font-weight: 500;
         color: #dddddd;
-        font-size: 8px;
+        font-size: 10px;
         letter-spacing: 0;
         line-height: normal;
     }
@@ -1209,10 +1003,10 @@ body {
 
     .mobilehomepage .linkedin {
         position: absolute;
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
         top: 0;
-        left: 40px;
+        left: 58px;
     }
 
     .mobilehomepage .renamewhenused {
@@ -1759,875 +1553,6 @@ body {
         height: 246px;
         top: 0;
         left: 0;
-        object-fit: cover;
-    }
-
-
-    .mobilehomepage .renamewhenused-3 {
-        position: absolute;
-        width: 330px;
-        height: 483px;
-        top: 3341px;
-        left: 15px;
-    }
-
-
-    .mobilehomepage .text-wrapper-10 {
-        position: absolute;
-        top: -1px;
-        left: 21px;
-        font-family: "Poppins-Bold", Helvetica;
-        font-weight: 700;
-        color: var(--main-text);
-        font-size: 33.6px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .we-use-figma-to {
-        position: absolute;
-        width: 329px;
-        top: 78px;
-        left: 0;
-        font-family: "Open Sans-Regular", Helvetica;
-        font-weight: 400;
-        color: var(--main-text);
-        font-size: 18.6px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .text-wrapper-11 {
-        position: absolute;
-        top: 424px;
-        left: 81px;
-        font-family: "Inter-SemiBold", Helvetica;
-        font-weight: 600;
-        color: var(--services-text);
-        font-size: 18.6px;
-        letter-spacing: 0;
-        line-height: normal;
-        white-space: nowrap;
-    }
-
-
-    .mobilehomepage .servicesabouthelp {
-        position: absolute;
-        width: 177px;
-        height: 440px;
-        top: 3909px;
-        left: 15px;
-    }
-
-
-    .mobilehomepage .flexcontainer {
-        height: 121px;
-        top: -1px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 3px;
-        position: absolute;
-        width: 177px;
-        left: 0;
-    }
-
-
-    .mobilehomepage .text-i {
-        position: relative;
-        align-self: stretch;
-        font-family: "Open Sans-Bold", Helvetica;
-        font-weight: 400;
-        color: var(--main-text);
-        font-size: 16px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .span {
-        font-weight: 700;
-    }
-
-
-    .mobilehomepage .text-wrapper-12 {
-        font-family: "Open Sans-Regular", Helvetica;
-        color: rgb(203, 195, 195);
-    }
-
-
-    .mobilehomepage .flexcontainer-i {
-        height: 122px;
-        text-decoration: none;
-        top: 182px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 3px;
-        position: absolute;
-        width: 177px;
-        left: 0;
-    }
-
-
-    .mobilehomepage .flexcontainer-2 {
-        height: 72px;
-        top: 367px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 3px;
-        position: absolute;
-        width: 177px;
-        left: 0;
-    }
-
-
-    .mobilehomepage .copyright-load-of {
-        position: absolute;
-        width: 217px;
-        height: 25px;
-        top: 4432px;
-        left: 72px;
-    }
-
-
-    .mobilehomepage .text-wrapper-13 {
-        position: absolute;
-        width: 217px;
-        top: -1px;
-        left: 0;
-        font-family: "Open Sans-Regular", Helvetica;
-        font-weight: 400;
-        color: var(--main-text);
-        font-size: 16px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-}
-
-/* screen size under 375px */
-@media (min-width: 426px) and (max-width: 575px) {
-    body {
-        max-width: 100vw;
-        margin: 0;
-        padding: 0;
-        font-family: "Open Sans", sans-serif;
-        background-color: #888787;
-        text-decoration: none;
-    }
-
-    .mobilehomepage {
-        background-color: #2c2b2b;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        min-width: 100%;
-    }
-
-    .mobilehomepage .div {
-        border: 1px solid #dedcdc;
-        background-color: #2c2b2b;
-        min-width: 100vw;
-        height: 4460px;
-        position: relative;
-    }
-
-    .mobilehomepage .overlap {
-        position: absolute;
-        min-width: 375px;
-        height: 58px;
-        top: 0;
-        left: 0;
-    }
-
-    .mobilehomepage .newlogo-navbar {
-        position: absolute;
-        height: 58px;
-        top: 0;
-        left: 0;
-        background-color: var(--brandblacktext);
-    }
-
-    .mobilehomepage .vector {
-        position: absolute;
-        width: 20px;
-        height: 14px;
-        top: 11px;
-        left: 19.6rem;
-    }
-
-    .mobilehomepage .group {
-        position: absolute;
-        width: 209px;
-        height: 46px;
-        top: 6px;
-        left: 28px;
-    }
-
-    .mobilehomepage .overlap-wrapper {
-        position: relative;
-        min-width: 213px;
-        height: 46px;
-        left: -12px;
-    }
-
-    .mobilehomepage .overlap-group {
-        position: relative;
-        width: 211px;
-        height: 46px;
-    }
-
-    .mobilehomepage .overlap-group-2 {
-        position: absolute;
-        width: 208px;
-        height: 46px;
-        top: 0;
-        left: 0;
-    }
-
-    .mobilehomepage .text-wrapper {
-        top: 0;
-        -webkit-text-stroke: 0.99px #3f3f3fcf;
-        font-family: "Poppins-Regular", Helvetica;
-        font-weight: 00;
-        color: #c8f0c0;
-        font-size: 30.6px;
-        text-align: right;
-        position: absolute;
-        left: 0;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-    .mobilehomepage .text-wrapper-2 {
-        position: absolute;
-        top: 31px;
-        left: 118px;
-        font-family: "Open Sans-SemiBold", Helvetica;
-        font-weight: 600;
-        color: #ffffff;
-        font-size: 5.8px;
-        letter-spacing: 0;
-        line-height: 6.8px;
-        white-space: nowrap;
-    }
-
-
-    .mobilehomepage .img {
-        position: absolute;
-        width: 20px;
-        height: 18px;
-        top: 11px;
-        left: 174px;
-        background-color: transparent;
-    }
-
-    .mobilehomepage .mobile-social {
-        position: absolute;
-        width: 90px;
-        height: 13px;
-        top: 37px;
-        left: 16.5rem;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .mobilehomepage .microsoft {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top: 0;
-        left: 68px;
-    }
-
-    .mobilehomepage .github {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top: 0;
-        left: 54px;
-    }
-
-    .mobilehomepage .text-wrapper-3 {
-        position: absolute;
-        width: 39px;
-        top: 0;
-        left: 0;
-        font-family: "Poppins-Medium", Helvetica;
-        font-weight: 500;
-        color: #dddddd;
-        font-size: 8px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .linkedin {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top: 0;
-        left: 40px;
-    }
-
-    .mobilehomepage .rectangle {
-        position: absolute;
-        width: 20px;
-        height: 2px;
-        top: 17px;
-        left: 19.6rem;
-        background-color: #de4013;
-    }
-
-    .mobilehomepage .renamewhenused {
-        position: absolute;
-        width: 90%;
-        height: 396px;
-        top: 103px;
-        left: 32px;
-    }
-
-    .mobilehomepage .mobile-load-of {
-        position: absolute;
-        width: 169px;
-        height: 34px;
-        top: 0;
-        left: 0;
-        width: 94%;
-    }
-
-    .mobilehomepage .text-wrapper-4 {
-        top: -1px;
-        font-family: "Poppins", Helvetica;
-        font-weight: 600;
-        color: #f56f0f;
-        font-size: 34.2px;
-        position: absolute;
-        left: 0;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-    .mobilehomepage .overlap-2 {
-        position: absolute;
-        width: 98%;
-        height: 286px;
-        top: 50px;
-        left: 0;
-    }
-
-    .mobilehomepage .mobile-web {
-        position: absolute;
-        width: 315px;
-        height: 101px;
-        top: 0;
-        left: 0;
-    }
-
-    .mobilehomepage .web-development-UX {
-        font-size: 36.3px;
-        position: absolute;
-        top: -1px;
-        left: 0;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: var(--main-text);
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-    .mobilehomepage .mobile-paragraph {
-        position: absolute;
-        width: 330px;
-        height: 198px;
-        top: 88px;
-        left: 0;
-    }
-
-    .mobilehomepage .i-specialize-in {
-        position: absolute;
-        top: -12px;
-        left: 0;
-        font-family: "Open Sans-Regular", Helvetica;
-        font-weight: 400;
-        color: var(--main-text);
-        font-size: 20px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-    .mobilehomepage .proficient-in {
-        position: absolute;
-        top: 89px;
-        left: 0;
-        font-family: "Open Sans-Regular", Helvetica;
-        font-weight: 400;
-        color: var(--main-text);
-        font-size: 20px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-    .mobilehomepage .mobile-button {
-        display: flex;
-        min-width: 90px;
-        height: 22px;
-        align-items: center;
-        justify-content: center;
-        gap: 9.18px;
-        padding: 9.18px 11.47px;
-        position: absolute;
-        top: 359px;
-        left: 12rem;
-        border-radius: 3.44px;
-        border: 1.15px solid;
-        border-color: #ffffff;
-    }
-
-    .mobilehomepage .text-wrapper-5 {
-        position: relative;
-        width: fit-content;
-        margin-top: -1.47px;
-        margin-left: -0.28px;
-        margin-right: -0.28px;
-        font-family: "Open Sans-SemiBold", Helvetica;
-        font-weight: 600;
-        color: #fcfdfd;
-        font-size: 13.8px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-    .mobilehomepage .renamewhenused-2 {
-        position: absolute;
-        width: 90%;
-        height: 396px;
-        top: 103px;
-        left: 12px;
-        top: 594px;
-    }
-
-    .mobilehomepage .load-of-pixels-wrapper {
-        width: 94%;
-        top: 265px;
-        left: 8px;
-        position: absolute;
-        height: 67px;
-    }
-
-    .mobilehomepage .load-of-pixels {
-        font-size: 21.7px;
-        position: absolute;
-        top: -1px;
-        left: 0;
-        font-family: "Poppins-SemiBold", Helvetica;
-        font-weight: 600;
-        color: #f56f0f;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-    .mobilehomepage .overlap-3 {
-        position: absolute;
-        width: 98%;
-        height: 170px;
-        top: 348px;
-        left: 9px;
-    }
-
-    .mobilehomepage .web-development-UX-wrapper {
-        width: 94%;
-        height: 95px;
-        position: absolute;
-        top: 0;
-        left: 8px;
-    }
-
-    .mobilehomepage .web-development-UX-2 {
-        font-size: 33.3px;
-        position: absolute;
-        top: -42px;
-        left: -11px;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: var(--main-text);
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-    .mobilehomepage .p {
-        position: absolute;
-        top: 29px;
-        left: -2px;
-        font-family: "Open Sans-Regular", Helvetica;
-        font-weight: 400;
-        color: var(--main-text);
-        font-size: 20px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-    .mobilehomepage .div-wrapper {
-        display: flex;
-        width: 90px;
-        height: 22px;
-        align-items: center;
-        justify-content: center;
-        gap: 9.18px;
-        padding: 8.66px 10.83px;
-        position: absolute;
-        top: 736px;
-        left: 13rem;
-        border-radius: 3.25px;
-        border: 1.08px solid;
-        border-color: #ffffff;
-    }
-
-
-    .mobilehomepage .text-wrapper-6 {
-        margin-top: -1.42px;
-        margin-left: -0.05px;
-        margin-right: -0.05px;
-        font-size: 13px;
-        position: relative;
-        width: fit-content;
-        font-family: "Open Sans-SemiBold", Helvetica;
-        font-weight: 600;
-        color: #fcfdfd;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .rectangle-2 {
-        position: absolute;
-        max-width: 100%;
-        height: 249px;
-        top: 0;
-        left: 8px;
-        object-fit: cover;
-    }
-
-
-    .mobilehomepage .proficient-in-2 {
-        position: absolute;
-        top: 467px;
-        left: 7px;
-        font-family: "Open Sans-Regular", Helvetica;
-        font-weight: 400;
-        color: var(--main-text);
-        font-size: 16.2px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .popular-services {
-        display: inline-flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 33px;
-        position: absolute;
-        top: 1480px;
-        left: 15.5%;
-    }
-
-
-    .mobilehomepage .popular-services-2 {
-        position: relative;
-        display: flex;
-        width: 94%;
-        height: 44px;
-        top: 40px;
-        left: 16px;
-    }
-
-
-    .mobilehomepage .services-image-text {
-        position: relative;
-        width: 294.48px;
-        height: 811.71px;
-    }
-
-
-    .mobilehomepage .web-development-UX-3 {
-        position: absolute;
-        top: -52px;
-        left: -11px;
-        font-family: "Inter-Bold", Helvetica;
-        font-weight: 700;
-        color: var(--main-text);
-        font-size: 33.3px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .cloud-services {
-        display: inline-flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-
-
-    .mobilehomepage .rectangle-3 {
-        position: relative;
-        width: 294.48px;
-        height: 248.57px;
-        object-fit: cover;
-    }
-
-
-    .mobilehomepage .frame {
-        display: inline-flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
-        position: absolute;
-        top: 147px;
-        left: 14px;
-    }
-
-
-    .mobilehomepage .text-wrapper-7 {
-        position: relative;
-        width: fit-content;
-        margin-top: -1px;
-        font-family: "Open Sans-Regular", Helvetica;
-        font-weight: 400;
-        color: #ffffff;
-        font-size: 15px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .text-wrapper-8 {
-        position: relative;
-        width: fit-content;
-        font-family: "Open Sans-SemiBold", Helvetica;
-        font-weight: 600;
-        color: #ffffff;
-        font-size: 18px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .IT-management {
-        display: inline-flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        position: absolute;
-        top: 282px;
-        left: 0;
-    }
-
-
-
-    .mobilehomepage .AI-assisitant {
-        display: inline-flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        position: absolute;
-        top: 563px;
-        left: 0;
-    }
-
-
-    .mobilehomepage .mobile-button-wrapper {
-        display: inline-flex;
-        align-items: flex-start;
-        position: relative;
-        flex: 0 0 auto;
-    }
-
-
-    .mobilehomepage .get-in-touch-wrapper {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        padding: 8px 10px;
-        position: relative;
-        flex: 0 0 auto;
-        border-radius: 3px;
-        border: 1px solid;
-        border-color: #ffffff;
-    }
-
-
-    .mobilehomepage .get-in-touch {
-        margin-top: -1px;
-        font-size: 12px;
-        position: relative;
-        width: fit-content;
-        font-family: "Open Sans-SemiBold", Helvetica;
-        font-weight: 600;
-        color: #fcfdfd;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .renamewhenused-UX {
-        position: absolute;
-        width: 90%;
-        height: 396px;
-        top: 2510px;
-        left: 22px;
-    }
-
-
-    .mobilehomepage .overlap-4 {
-        position: absolute;
-        width: 302px;
-        height: 514px;
-        top: 262px;
-        left: 10px;
-
-    }
-
-
-    .mobilehomepage .mobile-button-2 {
-        display: flex;
-        min-width: 90px;
-        height: 22px;
-        align-items: center;
-        justify-content: center;
-        gap: 8.59px;
-        padding: 8.59px 10.74px;
-        position: absolute;
-        top: 512px;
-        left: 10.5rem;
-        border-radius: 3.22px;
-        border: 1.07px solid;
-        border-color: #ffffff;
-    }
-
-
-    .mobilehomepage .text-wrapper-9 {
-        margin-top: -1.48px;
-        margin-left: -0.39px;
-        margin-right: -0.39px;
-        font-size: 12.9px;
-        position: relative;
-        width: fit-content;
-        font-family: "Open Sans-SemiBold", Helvetica;
-        font-weight: 600;
-        color: #fcfdfd;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .group-2 {
-        position: absolute;
-        width: 297px;
-        height: 499px;
-        top: 0;
-        left: 0;
-    }
-
-
-    .mobilehomepage .mobile-load-of-2 {
-        width: 94%;
-        top: 0;
-        left: -9px;
-        position: absolute;
-        height: 67px;
-    }
-
-
-    .mobilehomepage .load-of-pixels-2 {
-        font-size: 21.5px;
-        position: absolute;
-        top: -1px;
-        left: 0;
-        font-family: "Poppins-SemiBold", Helvetica;
-        font-weight: 600;
-        color: #f56f0f;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .overlap-5 {
-        position: absolute;
-        width: 297px;
-        height: 418px;
-        top: 82px;
-        left: 0;
-    }
-
-
-    .mobilehomepage .mobile-web-2 {
-        width: 295px;
-        height: 94px;
-        position: absolute;
-        top: 0;
-        left: 2px;
-    }
-
-
-    .mobilehomepage .overlap-group-wrapper {
-        position: absolute;
-        width: 295px;
-        height: 335px;
-        top: 83px;
-        left: 0;
-    }
-
-
-    .mobilehomepage .overlap-group-3 {
-        position: relative;
-        width: 291px;
-        height: 335px;
-    }
-
-
-    .mobilehomepage .at-the-core-of-our {
-        position: absolute;
-        top: 138px;
-        left: -9px;
-        font-family: "Open Sans-Regular", Helvetica;
-        font-weight: 400;
-        color: var(--main-text);
-        font-size: 18px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .our-approach-to-web {
-        position: absolute;
-        top: 11px;
-        left: -9px;
-        font-family: "Open Sans-Regular", Helvetica;
-        font-weight: 400;
-        color: var(--main-text);
-        font-size: 18px;
-        letter-spacing: 0;
-        line-height: normal;
-    }
-
-
-    .mobilehomepage .rectangle-4 {
-        position: absolute;
-        max-width: 100%;
-        height: 249px;
-        top: 0;
-        left: 8px;
         object-fit: cover;
     }
 
