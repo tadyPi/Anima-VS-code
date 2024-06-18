@@ -276,7 +276,7 @@ body {
     gap: 9.18px;
     padding: 9.18px 11.47px;
     position: absolute;
-    top: 330px;
+    top: 340px;
     left: 13rem;
     border-radius: 3.44px;
     border: 1.15px solid;
@@ -301,12 +301,12 @@ body {
     position: absolute;
     width: 400px;
     height: 784px;
-    top: 594px;
-    left: 15px;
+    top: 600px;
+    left: 24px;
 }
 
 .mobilehomepage .load-of-pixels-wrapper {
-    width: 94%;
+    width: 400px;
     top: 265px;
     left: 0;
     position: absolute;
@@ -314,7 +314,7 @@ body {
 }
 
 .mobilehomepage .load-of-pixels {
-    font-size: 21.7px;
+    font-size: 25px;
     position: absolute;
     top: -1px;
     left: 0;
@@ -327,14 +327,14 @@ body {
 
 .mobilehomepage .overlap-3 {
     position: absolute;
-    width: 311px;
+    width: 400px;
     height: 170px;
     top: 348px;
     left: 9px;
 }
 
 .mobilehomepage .web-development-UX-wrapper {
-    width: 94%;
+    width: 400px;
     height: 95px;
     position: absolute;
     top: 0;
@@ -360,7 +360,7 @@ body {
     font-family: "Open Sans-Regular", Helvetica;
     font-weight: 400;
     color: var(--main-text);
-    font-size: 16.2px;
+    font-size: 19px;
     letter-spacing: 0;
     line-height: normal;
 }
@@ -374,8 +374,8 @@ body {
     gap: 9.18px;
     padding: 8.66px 10.83px;
     position: absolute;
-    top: 660px;
-    left: 10.5rem;
+    top: 700px;
+    left: 13rem;
     border-radius: 3.25px;
     border: 1.08px solid;
     border-color: #ffffff;
