@@ -51,7 +51,7 @@ body {
 .mobilehomepage .vector {
     position: absolute;
     width: 20px;
-    height: 14px;
+    height: 20px;
     top: 5px;
     left: 23.5rem;
 }
@@ -133,16 +133,16 @@ body {
 
 .mobilehomepage .microsoft {
     position: absolute;
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     top: 0;
-    left: 68px;
+    left: 64px;
 }
 
 .mobilehomepage .github {
     position: absolute;
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     top: 0;
     left: 50px;
 }
@@ -162,8 +162,8 @@ body {
 
 .mobilehomepage .linkedin {
     position: absolute;
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     top: 0;
     left: 36px;
 }
@@ -197,9 +197,9 @@ body {
 .mobilehomepage .text-wrapper-4 {
     top: -1px;
     font-family: "Poppins-SemiBold", Helvetica;
-    font-weight: 400;
+    font-weight: 500;
     color: #f56f0f;
-    font-size: 30px;
+    font-size: 32px;
     position: absolute;
     left: 0;
     letter-spacing: 0;
@@ -277,7 +277,7 @@ body {
     padding: 9.18px 11.47px;
     position: absolute;
     top: 340px;
-    left: 13rem;
+    left: 15rem;
     border-radius: 3.44px;
     border: 1.15px solid;
     border-color: #ffffff;
