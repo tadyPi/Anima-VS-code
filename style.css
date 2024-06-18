@@ -53,7 +53,7 @@ body {
     width: 20px;
     height: 14px;
     top: 5px;
-    left: 24rem;
+    left: 23.5rem;
 }
 
 .mobilehomepage .group {
@@ -126,7 +126,7 @@ body {
     width: 90px;
     height: 13px;
     top: 37px;
-    left: 21rem;
+    left: 22rem;
     display: flex;
     justify-content: space-between;
 }
@@ -144,7 +144,7 @@ body {
     width: 18px;
     height: 18px;
     top: 0;
-    left: 54px;
+    left: 50px;
 }
 
 .mobilehomepage .text-wrapper-3 {
@@ -165,7 +165,7 @@ body {
     width: 18px;
     height: 18px;
     top: 0;
-    left: 40px;
+    left: 36px;
 }
 
 .mobilehomepage .rectangle {
@@ -173,7 +173,7 @@ body {
     width: 20px;
     height: 2px;
     top: 17px;
-    left: 25.5rem;
+    left: 25rem;
     background-color: #de4013;
 }
 
