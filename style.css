@@ -53,7 +53,7 @@ body {
     width: 20px;
     height: 14px;
     top: 5px;
-    left: 22.4rem;
+    left: 24rem;
 }
 
 .mobilehomepage .group {
@@ -126,23 +126,23 @@ body {
     width: 90px;
     height: 13px;
     top: 37px;
-    left: 19.8rem;
+    left: 21rem;
     display: flex;
     justify-content: space-between;
 }
 
 .mobilehomepage .microsoft {
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     top: 0;
     left: 68px;
 }
 
 .mobilehomepage .github {
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     top: 0;
     left: 54px;
 }
@@ -162,8 +162,8 @@ body {
 
 .mobilehomepage .linkedin {
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     top: 0;
     left: 40px;
 }
@@ -173,7 +173,7 @@ body {
     width: 20px;
     height: 2px;
     top: 17px;
-    left: 24rem;
+    left: 25.5rem;
     background-color: #de4013;
 }
 
