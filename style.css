@@ -12,7 +12,6 @@
 }
 
 body {
-    min-width: 100%;
     position: absolute;
     margin: 0;
     padding: 0;
@@ -47,7 +46,7 @@ body {
 
 .mobilehomepage .newlogo-navbar {
     position: absolute;
-    width: 420px;
+    width: 431px;
     height: 68px;
     left: 0;
     background-color: var(--brandblacktext);
@@ -182,7 +181,7 @@ body {
     min-width: 400px;
     height: 396px;
     top: 142px;
-    left: 24px;
+    left: 16px;
 }
 
 .mobilehomepage .mobile-load-of {
@@ -274,10 +273,10 @@ body {
     align-items: center;
     justify-content: center;
     gap: 9.18px;
-    padding: 9.18px 11.47px;
+    padding: 14px 11px;
     position: absolute;
     top: 340px;
-    left: 15rem;
+    left: 17rem;
     border-radius: 3.44px;
     border: 1.15px solid;
     border-color: #ffffff;
@@ -302,7 +301,7 @@ body {
     width: 400px;
     height: 784px;
     top: 600px;
-    left: 24px;
+    left: 16px;
 }
 
 .mobilehomepage .load-of-pixels-wrapper {
@@ -444,8 +443,8 @@ body {
 
 .mobilehomepage .web-development-UX-3 {
     position: absolute;
-    top: -52px;
-    left: -11px;
+    top: -21px;
+    left: -1px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: var(--main-text);
@@ -561,7 +560,7 @@ body {
     width: 400px;
     height: 776px;
     top: 2460px;
-    left: 24px;
+    left: 16px;
 }
 
 .mobilehomepage .overlap-4 {
@@ -579,7 +578,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 8.59px;
-    padding: 8.59px 10.74px;
+    padding: 14px 11px;
     position: absolute;
     top: 435px;
     left: 13rem;
@@ -613,7 +612,6 @@ body {
 .mobilehomepage .mobile-load-of-2 {
     width: 400px;
     top: 0;
-    left: -9px;
     position: absolute;
     height: 67px;
 }
@@ -664,7 +662,7 @@ body {
 .mobilehomepage .at-the-core-of-our {
     position: absolute;
     top: 59px;
-    left: -9px;
+    left: 0;
     font-family: "Open Sans-Regular", Helvetica;
     font-weight: 400;
     color: var(--main-text);
@@ -675,8 +673,8 @@ body {
 
 .mobilehomepage .our-approach-to-web {
     position: absolute;
-    top: -27px;
-    left: -9px;
+    top: -22px;
+    left: 0;
     font-family: "Open Sans-Regular", Helvetica;
     font-weight: 400;
     color: var(--main-text);
@@ -699,7 +697,7 @@ body {
     width: 400px;
     height: 483px;
     top: 3314px;
-    left: 18px;
+    left: 16px;
 }
 
 .mobilehomepage .text-wrapper-10 {
@@ -833,7 +831,6 @@ body {
 /* screen sizes bigger than 425px*/
 @media (min-width: 620px) {
     body {
-        width: 100vw;
         margin: 0;
         padding: 0;
         font-family: "Open Sans", sans-serif;
@@ -1104,7 +1101,7 @@ body {
         padding: 9.18px 11.47px;
         position: absolute;
         top: 340px;
-        left: 13rem;
+        left: 17rem;
         border-radius: 3.44px;
         border: 1.15px solid;
         border-color: #ffffff;
